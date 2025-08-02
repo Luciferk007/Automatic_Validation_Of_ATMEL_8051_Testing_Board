@@ -57,7 +57,7 @@ The system emulates a test environment for verifying the functionality of the AT
 
 ## 🚀 How to Use
 
-### ▶️ 1. Simulate in Proteus
+### 🧪 1. Simulate in Proteus
 - Open `.pdsprj` in Proteus
 - Start simulation
 - Interact via virtual terminal (UART)
@@ -67,9 +67,19 @@ The system emulates a test environment for verifying the functionality of the AT
   - 1: Test LEDs
   - 2: Test Buzzer
   - 3: Test LCD
-  - 4: Exit
+  - 4: Test Motor
+  - 5: Exit
+    
+### 🧪 3. Use the KEYBOARD
+  - Num 1: To Stop Motor
+  - Num 2: To Start Motor Again
+  - Num 3: To Start the Buzzer
+  - Num 4: To Stop the Buzzer
 
-### 🛠 3. Program to Hardware (Optional)
+### 🧪 4. Use the Switch
+  - To Turn On/Off LED.
+
+### 🛠 5. Program to Hardware (Optional)
 - Flash compiled `.hex` to your AT89C51 using USBasp
 - Connect LCD, buzzer, LEDs, and UART interface on breadboard/dev board
 
