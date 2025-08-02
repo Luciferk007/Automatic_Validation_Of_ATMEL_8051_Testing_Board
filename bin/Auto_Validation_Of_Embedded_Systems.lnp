@@ -1,0 +1,8 @@
+"..\bin\STARTUP.obj",
+"..\bin\main.obj",
+"..\bin\delay.obj",
+"..\bin\lcd.obj",
+"..\bin\mkeys.obj",
+"..\bin\uart.obj" 
+TO "..\bin\Auto_Validation_Of_Embedded_Systems" 
+PRINT(".\Listings\Auto_Validation_Of_Embedded_Systems.m51")
